@@ -4,6 +4,10 @@ AI Doctor Voicebot is a Gradio-based web application that acts as an AI medical 
 
 > **Note**: This application is for **learning and demonstration purposes only**. It is not a real doctor and should not be used for actual medical diagnosis or treatment.
 
+## Technical Architecture
+
+<img width="2770" height="1504" alt="Gemini_Generated_Image_a5ffg2a5ffg2a5ff" src="https://github.com/user-attachments/assets/e2d39818-e881-4def-9414-e0a9efbadab2" />
+
 ## Features
 
 - **Voice Input**: Record your symptoms directly through the browser using your microphone.
