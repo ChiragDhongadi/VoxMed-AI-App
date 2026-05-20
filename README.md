@@ -1,5 +1,7 @@
 # AI Doctor Voicebot
 
+[![VoxMed AI](https://img.shields.io/badge/VoxMedAI-Live_App-red?logo=render&logoColor=white)](https://voxmed-ai-app.onrender.com)   click this button for live demo
+
 AI Doctor Voicebot is a Gradio-based web application that acts as an AI medical assistant. It allows users to upload medical images (like skin conditions) and speak their symptoms using their microphone. The AI transcribes the speech, analyzes the image, and provides a conversational response mimicking a doctor, read back to the user via Text-to-Speech (TTS).
 
 > **Note**: This application is for **learning and demonstration purposes only**. It is not a real doctor and should not be used for actual medical diagnosis or treatment.
