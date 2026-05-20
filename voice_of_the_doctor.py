@@ -65,6 +65,7 @@ def text_to_speech_with_gtts(input_text, output_filepath):
     except Exception as e:
         print(f"An error occurred while trying to play the audio: {e}")
     
+    return output_filepath
 
 # input_text = "Hello, this is a test of the text to speech conversion using gTTS new version auto play testing."
 #text_to_speech_with_gtts(input_text=input_text, output_filepath="gtts_testing_autoplay.mp3")
@@ -94,5 +95,7 @@ def text_to_speech_with_elevenlabs(input_text, output_filepath):
             raise OSError("Unsupported operating system")
     except Exception as e:
         print(f"An error occurred while trying to play the audio: {e}")
+
+    return output_filepath
 
 # text_to_speech_with_elevenlabs(input_text=input_text, output_filepath="elevenlabs_testing.mp3")
